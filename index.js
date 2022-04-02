@@ -1,9 +1,13 @@
 function isPalindrome(word) {
-  // Write your algorithm here
+ if (word === word.split('').reverse().join('')) {return 'true'}
+ else {return 'false'}
 }
 
 /* 
-  Add your pseudocode here
+  Take in a string
+  pass the string to an equation with a strict equality comparison operator
+  if true, return true
+  if false, return false
 */
 
 /*
